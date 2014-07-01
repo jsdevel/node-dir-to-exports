@@ -29,12 +29,13 @@
   },
   "devDependencies": {
     "coveralls": "~2.10.0",
+    "glob": "*",
     "should": "~4.0.4",
     "mocha": "~1.20.1",
     "jshint": "~2.5.1",
     "istanbul": "~0.2.13"
   },
   "peerDependencies": {
-    "glob": "~4.0.3"
+    "glob": "*"
   }
 }
