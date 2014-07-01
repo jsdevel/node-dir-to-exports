@@ -1,7 +1,7 @@
 {
   "name": "dir-to-exports",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Assign and require filenames in a directory to exports using a glob pattern.",
   "author": "Joseph Spencer",
   "scripts": {
