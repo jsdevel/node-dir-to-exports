@@ -1,0 +1,31 @@
+{
+  "name": "dir-to-exports",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Assign and require filenames in a directory to exports using a glob pattern.",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "pretest": "jshint index.js && jshint --config ./test/.jshintrc test",
+    "test": "istanbul cover _mocha -- './test/**/*.tests.js' && cat ./coverage/lcov.info | coveralls -v && rm -rf coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-dir-to-exports.git"
+  },
+  "keywords": [],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-dir-to-exports/issues"
+  },
+  "devDependencies": {
+    "coveralls": "~2.10.0",
+    "should": "~4.0.4",
+    "mocha": "~1.20.1",
+    "jshint": "~2.5.1",
+    "istanbul": "~0.2.13"
+  },
+  "peerDependencies": {
+    "glob": "~4.0.3"
+  }
+}
