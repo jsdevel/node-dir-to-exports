@@ -12,7 +12,16 @@
     "type": "git",
     "url": "https://github.com/jsdevel/node-dir-to-exports.git"
   },
-  "keywords": [],
+  "keywords": [
+    "require",
+    "modules",
+    "exports",
+    "export",
+    "glob",
+    "pattern",
+    "auto",
+    "load"
+  ],
   "contributors": [],
   "license": "MIT",
   "bugs": {
